@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container1{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.firstrow{
+    background-color: #F3D7B7;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 50px;
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.big{
+    display: flex;
+    margin-top: 130px;
+ }
+
+.p1{
+    font-size: 64px;
+    font-weight: 700;
+}
+.p2{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 47px;
+    margin-bottom: 47px;
+}
+.button1{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding: 16px 24px;
+    background-color: #0A775F;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.firstrow{
+    padding: 25px 0 250px 0;
+    position: relative;
+}
+.img1{
+position: absolute;
+right: 180px;
+}
+.img2{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    right: 780px;
+    top: 110px;
+    transform: rotate(-25deg);
+}
+
+
+
+section{
+    padding: 110px 0 90px 0;
+}
+.container2{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.tittle{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+.box{
+    margin-top: 60px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+.cardp1{
+font-size: 40px;
+font-weight: 500;
+color: #333333;
+}
+.cardp2{
+   font-size: 25px;
+   font-weight: 400;
+   color: #333333;
+   line-height: 34px; 
+   margin-top: 15px;
+}
+
+.card2{
+    flex-direction: row-reverse;   
+}
+.cardimg2{
+    width: 451px;
+    height: 375px;
+}
+
+
+
+footer{
+    padding: 62px 0 74px 0;
+    background-color: #F3D7B7;
+}
+.rowfooter{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.menu2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.menu2 li{
+list-style: none;
+}
+.menu2 a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+}
+.icons{
+ display: flex;
+ gap: 30px;
+
+}
+i{
+    cursor: pointer;
+    font-size: 30px;
+    color: #333333;
+}
